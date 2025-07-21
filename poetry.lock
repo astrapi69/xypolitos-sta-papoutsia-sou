@@ -290,6 +290,17 @@ files = [
 ]
 
 [[package]]
+name = "midiutil"
+version = "1.2.1"
+description = "A pure python library for creating multi-track MIDI files"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "MIDIUtil-1.2.1.tar.gz", hash = "sha256:79fa983bd1efc60785f68a8fe78fa8f45b8d7ec5898bf7cb7f3f7f3336d6a90a"},
+]
+
+[[package]]
 name = "mypy"
 version = "1.17.0"
 description = "Optional static typing for Python"
@@ -686,4 +697,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "f9e3eeda4abecef0028ddda9bc2610e6693a30f9e59393bf6c468e7d39258626"
+content-hash = "02cc11f508fa3c4fbeba7d9e436248919125c5b5a54f11904263051e113b9074"
